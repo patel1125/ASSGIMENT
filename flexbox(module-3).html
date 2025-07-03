@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            background-color: plum;
+            padding: 50px;
+            text-align: center;
+            font-size: 35px;
+        }
+        .flex{
+            height: auto;
+            background-color: darksalmon;
+            display: flex;
+            justify-content: center;
+        }
+        .flex >div{
+            width: 50px;
+            height: 50px;
+        }
+        
+        .footer{
+            background-color: plum;
+            padding: 50px;
+            text-align: center;
+            font-size: 35px;
+                }
+                .flexflow{
+display: flex;
+    flex-flow:row wrap;
+    background: palegreen;
+
+}
+.flexflow >div {
+ background-color: lavenderblush;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-justify{
+            display: flex;
+            justify-content: center;
+            background-color: palegreen;
+        }
+.flex-justify >div{
+    background-color: lavenderblush;
+         margin: 10px;
+     padding: 20px;
+     font-size: 30px;}
+
+     .Justify-flexstart{
+            display: flex;
+            justify-content: flex-start;
+            background-color: palegreen ;
+        }
+.Justify-flexstart >div{
+    background-color: lavenderblush;
+         margin: 10px;
+     padding: 20px;
+     font-size: 30px;}
+      .Justify-flexend{
+            display: flex;
+            justify-content: flex-end;
+            background-color: palegreen ;
+        }
+.Justify-flexend >div{
+    background-color: lavenderblush;
+         margin: 10px;
+     padding: 20px;
+     font-size: 30px;}
+
+     .Justify-flex-spacing-around{
+            display: flex;
+            justify-content: space-around;
+            background-color: palegreen ;
+        }
+.Justify-flex-spacing-around>div{
+    background-color: lavenderblush;
+         margin: 10px;
+     padding: 20px;
+     font-size: 30px;}
+       .Justify-flex-space-between{
+            display: flex;
+            justify-content:space-between;
+            background-color: palegreen;
+        }
+.Justify-flex-space-between>div{
+    background-color: lavenderblush;
+         margin: 10px;
+     padding: 20px;
+     font-size: 30px;}
+       .Justify-space-evenly{
+            display: flex;
+            justify-content: space-around;
+            background-color:palegreen;
+        }
+.Justify-space-evenly>div{
+    background-color: lavenderblush;
+         margin: 10px;
+     padding: 20px;
+     font-size: 30px;}
+         .flex-start{
+        display: flex;
+        height: 200px;
+        align-items: flex-start;
+        background-color:palegreen;
+     }
+     .flex-start >div {
+        background-color: palevioletred;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+     }
+
+     .flex-end{
+        display: flex;
+        height: 200px;
+        align-items: flex-end;
+        background-color: palegreen;
+     }
+     .flex-end >div {
+        background-color: palevioletred;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+     }
+.flex-center{
+        display: flex;
+        height: 200px;
+        align-items: center;
+        background-color: palegreen;
+     }
+     .flex-center > div {
+        background-color: palevioletred;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+     }
+    .stretch{
+        display: flex;
+        height: 200px;
+        align-items: stretch;
+        background-color:palegreen;
+     }
+     .stretch > div {
+        background-color: palevioletred;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+     }
+    .baseline {
+        display: flex;
+        height: 200px;
+        align-items: baseline;
+        background-color:palegreen;
+     }
+     .baseline > div {
+        background-color:palevioletred;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+     }
+     .normal{
+        display: flex;
+        height: 200px;
+        align-items: normal;
+        background-color:palegreen;
+     }
+     .normal > div {
+        background-color: palevioletred;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+     }
+
+    </style>
+   
+</head>
+<body>
+    <div class="header"><h2>Header </h2></div>
+    <div class="flex"> Justify-content property </div>
+    
+    <h1>FlexFlow</h1>
+       <div class="flexflow">
+       <div>1</div>
+       <div>2</div>
+       <div>3</div>
+       <div>4</div>
+       <div>5</div>
+       <div>6</div>
+        <div>1</div>
+       <div>2</div>
+       <div>3</div>
+       <div>4</div>
+       <div>5</div>
+       <div>6</div>
+        </div>
+          <h1>Justify-content</h1>
+       <div class="flex-justify">
+       <div>1</div>
+       <div>2</div>
+       <div>3</div>
+        </div>
+         <h1>Justify-flexstart</h1>
+       <div class="Justify-flexstart">
+       <div>1</div>
+       <div>2</div>
+       <div>3</div>
+        </div>
+        <h1>Justify-flexend</h1>
+       <div class="Justify-flexend">
+       <div>1</div>
+       <div>2</div>
+       <div>3</div>
+        </div>
+        <h1>Justify-flex-spacing-around</h1>
+       <div class="Justify-flex-spacing-around">
+       <div>1</div>
+       <div>2</div>
+       <div>3</div>
+        </div>
+<h1>Justify-flex-space-between</h1>
+       <div class="Justify-flex-space-between">
+       <div>1</div>
+       <div>2</div>
+       <div>3</div>
+       </div>
+       
+       <h1>Justify-space-evenly</h1>
+       <div class="Justify-space-evenly">
+       <div>1</div>
+       <div>2</div>
+       <div>3</div>
+        </div>
+       
+         <h1>flex-Start</h1>
+       <div class="flex-start">
+       <div>1</div>
+       <div>2</div>
+       <div>3</div>
+        </div>
+
+        
+
+        <h1>Flex-End</h1>
+       <div class="flex-end">
+       <div>1</div>
+       <div>2</div>
+       <div>3</div>
+        </div>
+         <h1>Flex-Center</h1>
+       <div class="flex-center">
+       <div>1</div>
+       <div>2</div>
+       <div>3</div>
+        </div>
+         <h1>Stretch</h1>
+       <div class="stretch">
+       <div>1</div>
+       <div>2</div>
+       <div>3</div>
+        </div>
+        <h1>Baseline</h1>
+       <div class="baseline">
+       <div><h1>1</h1></div>
+       <div><h6>2</h6></div>
+       <div><h3>3</h3></div>
+       </div>
+        
+         <h1>Normal</h1>
+       <div class="normal">
+       <div>1</div>
+       <div>2</div>
+       <div>3</div>
+        </div>
+
+ <div class="footer"><h1>Footer</h1></div>
+         
+</body>
+</html>
