@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Webpage</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+ 
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+ 
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px;
+    }
+
+    .column {
+      width: 48%;
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+   
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 20px;
+      margin-top: 20px;
+    }
+
+   
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .column {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      nav {
+        font-size: 1rem;
+        padding: 12px;
+      }
+
+      .column p {
+        font-size: 1rem;
+      }
+
+      footer {
+        font-size: 0.9rem;
+      }
+    }
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+  </style>
+</head>
+<body>
+
+
+  <nav>
+    <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+ 
+  <div class="container">
+    <div class="column">
+      <h2>Column One</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien eget justo malesuada fermentum.</p>
+    </div>
+    <div class="column">
+      <h2>Column Two</h2>
+      <p>Integer vel libero nec urna sollicitudin tincidunt. Suspendisse potenti. Proin dignissim velit sit amet leo dictum.</p>
+    </div>
+  </div>
+
+
+  <footer>
+    © 2025 Responsive Webpage. All rights reserved.
+  </footer>
+
+</body>
+</html>
