@@ -1,0 +1,39 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero with animated background */
+.hero {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  animation: bgCycle 30s infinite;
+  transition: background 1s ease-in-out;
+}
+
+@keyframes bgCycle {
+  0%   { background-image: url('back3.png' ) ; }
+  33%  { background-image: url('back4.png'); }
+  66%  { background-image: url('back5.png'); }
+  100% { background-image: url('back6.png'); }
+}
+
+/* Form Section */
+.form-section input,
+.form-section textarea {
+  padding: 10px;
+}
+
+.form-section button {
+  padding: 10px;
+}
+
+/* Gallery Hover Effect */
+img:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
